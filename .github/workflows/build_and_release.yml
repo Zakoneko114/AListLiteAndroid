@@ -67,7 +67,7 @@ jobs:
           echo "LATEST_OPENLIST_VERSION=${LATEST_OPENLIST_VERSION}" >> $GITHUB_ENV
           echo "Set OpenList version to" ${LATEST_OPENLIST_VERSION}
           # 更新 Constants.java 中定义的 OpenList 版本号
-          sed -i "s/\(public static String OPENLIST_VERSION = \"\)\([^\";]*\)\(\";\)/\1${LATEST_OPENLIST_VERSION}\3/" app/src/main/java/com/leohao/android/alistlite/util/Constants.java
+          sed -i "s/\(public static String OPENLIST_VERSION = \"\)\([^\";]*\)\(\";\)/\1${LATEST_OPENLIST_VERSION}\3/" app/src/main/java/com/dykt/android/alistlite/util/Constants.java
 
       - name: 6-BuildOpenListArtifacts
         run: |

@@ -1,14 +1,64 @@
+```
+# Android build artifacts
+*.apk
+*.aar
+*.dex
+*.so
+*.jar
+
+# Android build directories
+build/
+.gradle/
+local.properties
+.proguard/
+
+# IDE files
+.idea/
 *.iml
-.gradle
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+*.iws
+.vscode/
+
+# System files
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-/.idea/
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Python artifacts (if any Python components)
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Compiled Java
+*.class
+*.war
+*.ear
+
+# Compressed archives
+*.zip
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.gz
+*.bz2
+*.xz
+*.7z
+*.rar
+```
